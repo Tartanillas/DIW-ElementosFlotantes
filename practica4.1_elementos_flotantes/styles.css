@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
 }
-
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
 header {
     text-align: center;
     height: 35px;
@@ -13,24 +16,26 @@ nav {
     background-color: black;
     color: white;
     text-align: center;
-    width: 100%;
-    padding: 18px 0px;
+    margin-left: 2%;
+    width: 96%;
+    padding: 25px 0px;
 }
 
 nav div.menu-item {
     display: inline-block;
-    padding-right: 3%;
+    padding-right: 2.5%;
 }
 
 .sidebar {
     background-color: black;
     color: white;
-    width: 10%;
+    width: 7%;
     float: left;
-    margin-top: 2%;
-    padding-top: 2%;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding-top: 1.5%;
     padding-left: 0.7%;
-    height: 400px;
+    height: 546px;
 }
 
 .sidebar div.menu-item {
@@ -56,25 +61,27 @@ nav div.menu-item {
 
 .articles {
     width: 80%;
-    margin: 40px auto;
+    margin-top: 30px;
+    margin-right: 5%;
     float: right;
-    text-align: center;
+    text-align: left;
+    margin-bottom: 30px;
 }
 
 .articles article {
     display: inline-block;
-    width: 31%;
-    margin-left: 26px;
-    margin-bottom: 20px;
+    width: 31.5%;
+    margin-right: 0.6%;
 }
 
 footer {
-    background-color: gray;
+    background-color: lightgray;
     color: black;
     padding: 10px;
     clear: both;
-    margin-top: 10px;
     text-align: center;
+    margin-left: 2%;
+    width: 95%;
 }
 
 img {
